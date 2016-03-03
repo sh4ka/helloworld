@@ -18,9 +18,3 @@ test:
   override:
     - cd _build && rake app:build_server
     - cd _build && rake app:cucumber
-    
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: shitty-circle-ci
